@@ -1,0 +1,13 @@
+
+<%= form_for @bikes do |f| %>
+  <%= f.label :type %>:
+  <%= f.text_field :type %><br />
+
+  <%= f.label :size %>:
+  <%= f.text_field :size %><br />
+
+  <%= f.label :bike_material %>:
+  <%= f.text_field :bike_material %><br />
+  
+  <%= f.submit %>
+<% end %>

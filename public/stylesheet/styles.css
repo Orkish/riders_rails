@@ -1,0 +1,28 @@
+html {
+  background-color: #98C3EE;
+}
+
+body {
+  background-image:url("/images/bike.jpg");
+  height: 753px;
+  width: 1280px;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+.intro {
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.home {
+  padding-left: 20px;
+}
+
+.text {
+  padding-left: 20px;
+}
+
+.create {
+  padding-left: 20px;
+}
+

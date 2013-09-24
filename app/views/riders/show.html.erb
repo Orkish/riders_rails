@@ -1,0 +1,9 @@
+<div class="text">
+  You have just created <strong><%= @rider.name %></strong>! A <%= @rider.age %> year old, who is a</br> <%= @rider.skill_level %> at riding bicycles.
+</div>
+<div>
+<a href="/riders/:rider_id/new">Create</a> an awesome bike!
+</div>
+<div class="text">
+  You can <a href="/riders/<%= @rider.id %>/delete">destroy</a> this rider or <a href="/riders/<%= @rider.id %>/edit">edit</a> this rider!
+</div>
